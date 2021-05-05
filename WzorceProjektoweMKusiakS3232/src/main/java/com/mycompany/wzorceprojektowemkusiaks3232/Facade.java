@@ -9,6 +9,44 @@ package com.mycompany.wzorceprojektowemkusiaks3232;
  *
  * @author Timax
  */
-public class Facade {
+class Seller{
+    public void sellProduct(){
+        System.out.println("Product sold");
+    } 
+}
+
+class Packer{
+    public void packProduct(){
+        System.out.println("Product packed");
+    }
+}
+
+class Warehouseman{
+    public void sendProduct(){
+        System.out.println("Product send");
+    }
+}
+
+class Shop{
+    private Seller seller;
+    private Packer packer;
+    private Warehouseman warehouseman;
     
+    public Shop(){
+        seller = new Seller();
+        packer = new Packer();
+        warehouseman = new Warehouseman();
+    }
+    
+    public void packAndSend(){
+        System.out.println("Pack and send");
+        packer.packProduct();
+        warehouseman.sendProduct();
+    }
+    
+    public void sellAndPack(){
+        System.out.println("Sell and Pack");
+        seller.sellProduct();
+        packer.packProduct();
+    }
 }
