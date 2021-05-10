@@ -11,12 +11,14 @@ package com.mycompany.wzorceprojektowemkusiaks3232;
  */
 public class MomentoTest {
     public static void main(String[] args){
-        Initiator init = new Initiator();
-        init.setState("Trun on");
-        
-        Managaer managaer = new Managaer();
-        managaer.setMomento(init.getMomento());
-        
-        init.setMomento(managaer.getMomento());
+        Manager manager = new Manager();
+        Handler handler = new Handler();    
+        manager.setState("First state");
+        manager.setState("Second state");
+        handler.addSaveState(manager.saveStatus());
+        manager.setState("Third state");
+        handler.addSaveState(manager.saveStatus());
+        manager.setState("Fourth state");
+        manager.restoreStatus(handler.getSaveState(0));
     }
 }
