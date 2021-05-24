@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 //Pattern
 public class Singleton {
     private static Singleton instance;

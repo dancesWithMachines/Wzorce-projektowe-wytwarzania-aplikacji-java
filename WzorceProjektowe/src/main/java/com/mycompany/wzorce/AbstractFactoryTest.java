@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class AbstractFactoryTest {
     public static void main(String[] args){
         Factory volkswagen = new VolkswagenFactory();

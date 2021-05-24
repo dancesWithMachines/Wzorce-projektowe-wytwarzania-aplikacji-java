@@ -7,10 +7,7 @@ package com.mycompany.wzorce;
 
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Message{
     public abstract String getMessage();
 }

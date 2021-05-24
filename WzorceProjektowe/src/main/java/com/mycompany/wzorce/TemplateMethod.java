@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Dishwasher{
     public abstract void clean();
     public abstract void dry();

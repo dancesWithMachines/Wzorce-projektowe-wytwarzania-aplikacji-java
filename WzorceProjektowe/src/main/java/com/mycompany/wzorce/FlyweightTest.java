@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class FlyweightTest {
     private static final String greetings[] = {"Hello", "Greetings", "Howdy"};
     public static void main (String[] args){

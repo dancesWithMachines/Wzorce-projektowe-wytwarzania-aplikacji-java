@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Element{
     protected String name;
     public Element(String name){

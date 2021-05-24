@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Contractor{
     protected Contractor subcontractor;
     

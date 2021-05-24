@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class ObserverTest {
     public static void main(String[] args){
         Program program = new Program();

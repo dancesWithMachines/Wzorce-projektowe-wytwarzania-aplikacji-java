@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class FacadeTest {
     public static void main(String[] args){
         Shop shop = new Shop();

@@ -7,10 +7,7 @@ package com.mycompany.wzorce;
 
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 public class BuilderTest {
     public static void main(String[] args){
         VetSalonOwner manager = new VetSalonOwner();

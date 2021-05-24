@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class CommandTest {
     public static void main(String[] args){
         Recipient recipient = new Recipient();

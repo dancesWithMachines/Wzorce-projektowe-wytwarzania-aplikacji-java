@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 public class Momento {
     private String state;
     

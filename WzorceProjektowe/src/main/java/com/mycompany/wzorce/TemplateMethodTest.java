@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class TemplateMethodTest {
     public static void main(String[] args){
         Dishwasher superDishwasher = new SuperDishwasher();

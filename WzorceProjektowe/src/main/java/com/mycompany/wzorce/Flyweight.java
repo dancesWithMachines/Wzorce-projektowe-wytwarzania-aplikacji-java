@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author Timax
- */
+
 interface Human {
     public void sayHello();
 }

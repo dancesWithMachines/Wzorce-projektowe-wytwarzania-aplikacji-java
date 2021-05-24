@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class MediatorTest {
     public static void main(String args[]){
         SpecifiedMediator mediator = new SpecifiedMediator();

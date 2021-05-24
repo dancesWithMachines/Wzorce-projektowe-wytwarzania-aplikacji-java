@@ -7,10 +7,7 @@ package com.mycompany.wzorce;
 
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 public class SingletonTest {
     public static void main(String[] args){
         VetRegistryController firstController = VetRegistryController.getVetGegistryController();

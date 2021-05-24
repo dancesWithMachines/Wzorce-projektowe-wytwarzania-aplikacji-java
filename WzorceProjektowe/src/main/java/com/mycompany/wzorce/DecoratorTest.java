@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class DecoratorTest {
     public static void main (String[] main){
         Product product = new Product();

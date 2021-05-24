@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class VisitorTest {
     public static void main(String args[]){
         Structure structure = new Structure();

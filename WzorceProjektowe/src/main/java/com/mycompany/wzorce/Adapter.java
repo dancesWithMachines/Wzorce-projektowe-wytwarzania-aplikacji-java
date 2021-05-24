@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Sensor{
     public abstract double getTirePressure();
 }

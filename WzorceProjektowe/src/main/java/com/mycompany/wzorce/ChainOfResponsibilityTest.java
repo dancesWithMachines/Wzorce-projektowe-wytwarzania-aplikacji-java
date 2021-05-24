@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class ChainOfResponsibilityTest {
     public static void main(String[] args){
         SubContractorOne contractorOne = new SubContractorOne();

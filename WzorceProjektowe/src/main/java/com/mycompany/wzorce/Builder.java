@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 class MedicamentsList{
     private List<String> medicaments = new ArrayList<String>();
     

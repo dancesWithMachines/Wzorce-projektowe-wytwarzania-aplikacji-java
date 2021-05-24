@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Prototype {
     public Prototype(String name){
         this.name = name;

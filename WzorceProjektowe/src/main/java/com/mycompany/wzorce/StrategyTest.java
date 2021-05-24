@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class StrategyTest {
     public static void main(String args[]){
         StrategyContext context;

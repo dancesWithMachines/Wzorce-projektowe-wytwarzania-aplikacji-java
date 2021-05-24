@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Car{
     protected Car(String color, int horsePower, String type){
         this.horsePower = horsePower;

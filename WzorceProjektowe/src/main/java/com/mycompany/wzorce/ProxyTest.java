@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class ProxyTest {
     public static void main (String[] args){
         Messenger accountOne = new Messenger("4321");

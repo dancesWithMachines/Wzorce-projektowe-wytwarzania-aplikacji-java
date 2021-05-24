@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 abstract class AbstractWatchdog{
     public  abstract void watch();
 }

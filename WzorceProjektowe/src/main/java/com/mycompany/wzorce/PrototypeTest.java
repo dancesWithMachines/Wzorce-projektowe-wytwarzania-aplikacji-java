@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class PrototypeTest {
     public static void main(String[] args){
         PrototypeA prototypeA = new PrototypeA("First");

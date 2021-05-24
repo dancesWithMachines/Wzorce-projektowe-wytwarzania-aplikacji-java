@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class MomentoTest {
     public static void main(String[] args){
         Manager manager = new Manager();

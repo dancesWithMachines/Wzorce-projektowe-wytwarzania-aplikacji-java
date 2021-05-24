@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class AdapterTest {
     public static void main(String[] args){
         Sensor psiSensor = new PressureSensorAdapter(new PressureSensor());

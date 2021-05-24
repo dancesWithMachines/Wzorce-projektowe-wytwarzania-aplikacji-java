@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class IteratorTest {
     public static void main(String[] args){
         CarBase base = new CarBase();

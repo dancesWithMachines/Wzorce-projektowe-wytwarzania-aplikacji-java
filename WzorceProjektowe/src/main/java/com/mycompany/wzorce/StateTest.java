@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class StateTest {
     public static void main (String args[]){
         StateContext context = new StateContext(new SpecifiedState());

@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 class Seller{
     public void sellProduct(){
         System.out.println("Product sold");

@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class CompositeTest {
     public static void main (String[] args){
         Composite root = new Composite("root");

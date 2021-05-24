@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 public class BridgeTest {
     public static void main(String[] args){
         Dessert chocolateDessert = new CakeDessert(new ChocolateCake());

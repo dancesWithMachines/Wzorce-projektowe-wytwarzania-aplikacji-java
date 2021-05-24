@@ -5,10 +5,7 @@
  */
 package com.mycompany.wzorce;
 
-/**
- *
- * @author Timax
- */
+
 abstract class Mediator {
     public abstract void sendMessage(String message, Coworker coworker);
 }

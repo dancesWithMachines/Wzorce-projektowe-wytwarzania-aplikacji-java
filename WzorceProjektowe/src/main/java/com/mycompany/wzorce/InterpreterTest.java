@@ -8,10 +8,7 @@ package com.mycompany.wzorce;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Timax
- */
+
 public class InterpreterTest {
     public static void main(String args[]){
         Context context = new Context();
